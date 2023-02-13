@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@fastify/mongodb": "^6.2.0",
+    "fastify": "^4.12.0"
+  },
+  "scripts": {
+    "1": "tsx watch 1-basics/main.ts",
+    "2": "tsx watch 2-register/main.ts",
+    "3": "tsx watch 3-decorators/main.ts",
+    "4": "tsx watch 4-hooks/main.ts",
+    "5": "tsx watch 5-validation/main.ts",
+    "bonus": "tsx watch bonus/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.19",
+    "pino-pretty": "^9.1.1",
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.5"
+  }
+}
